@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Rock Paper Scissors</title>
+
+</head>
+
+<body class="bg-black text-white flex flex-col items-center justify-center h-screen font-montserrat gap-6">
+    <div>
+        <h3 class=" text-4xl font-extrabold">Rock Paper Scissors</h3>
+    </div>
+    <main class="flex gap-8">
+        <button id="rock" class="bg-white p-4 rounded-2xl text-3xl" value="rock">✊🏾</button>
+        <button id="paper" class="bg-white p-4 rounded-2xl text-3xl" value="paper">✋🏾</button>
+        <button class="bg-white p-4 rounded-2xl text-3xl" value="scissors">✌🏾</button>
+    </main>
+    <div>
+        <div id="score" class="text-amber-300"></div>
+        <div id="desc"></div>
+        <div id="result"></div>
+    </div>
+    <button id="endGameBtn" class="bg-amber-50 w-30 p-4 text-4xl rounded-2xl">❌</button>
+<script src="/script.js"></script>
+</body>
+</html>
